@@ -188,9 +188,9 @@ function drawClock() {
   var month_day = da[1] + " " + da[2];
 
   // fix hh for 12hr clock
-  var h2 = "0" + parseInt(hh) % 12 || 12;
-  if (parseInt(hh) > 12)
-    hh = h2.substr(h2.length -2);
+  //var h2 = "0" + parseInt(hh) % 12 || 12;
+  //if (parseInt(hh) > 12)
+  //  hh = h2.substr(h2.length -2);
 
   var x = (g.getWidth()/2);
   var y = (g.getHeight()/3);
